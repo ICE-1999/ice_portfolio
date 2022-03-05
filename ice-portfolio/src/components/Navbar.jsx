@@ -12,18 +12,24 @@ function Navbar() {
         </label>
         <ul className="menu">
           <li>
-            <Link to="main" className="active">
+            <Link to="main" className="active" smooth={true} duration={1000}>
               Home
             </Link>
           </li>
           <li>
-            <Link to="about">About</Link>
+            <Link to="features" smooth={true} duration={1000}>
+              About
+            </Link>
           </li>
           <li>
-            <Link to="project">Projects</Link>
+            <Link to="services" smooth={true} duration={1000}>
+              Projects
+            </Link>
           </li>
           <li>
-            <Link to="#">Contact</Link>
+            <Link to="subscribe" smooth={true} duration={1000}>
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>

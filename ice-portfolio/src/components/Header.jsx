@@ -7,17 +7,31 @@ function Header() {
       <Navbar />
       <div className="name">
         <h1>
-          Welcome to my <span>Portfolio</span> page
+          <span>IHEDIMBU CHUKWUKA</span>
         </h1>
+        <p className="details">
+          Hello 👋🏾 !! <br />
+          Welcome to my portfolio, I'm a computer engineering graduate from
+          Carleton University who is passionate about technology
+        </p>
         <div className="header-btns">
-          <a href="#" className="cv-btn">
+          <a
+            href="https://drive.google.com/file/d/19vYyAyplcCSyJULTgqP1nWSSOaG61hOC/view"
+            target="_blank"
+            className="cv-btn"
+          >
             Resume
           </a>
-          <a href="#" className="cv-btn1">
-            LinkedIn
+          <a
+            href="https://github.com/ICE-1999"
+            target="_blank"
+            className="cv-btn1"
+          >
+            Github
           </a>
         </div>
       </div>
+      <div className="arrow"></div>
     </div>
   );
 }
