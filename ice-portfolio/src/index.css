@@ -200,7 +200,7 @@ nav .menu-btn,
   margin-top: 60px;
   margin-bottom: -120px;
 }
-#features {
+#about {
   margin-top: 140px;
   width: 100%;
   height: 120vh;
@@ -213,25 +213,25 @@ nav .menu-btn,
   position: relative;
 }
 
-.features-text {
+.about-text {
   width: 45%;
   color: #fff;
   list-style: circle;
 }
-.features-text h2 {
+.about-text h2 {
   font-size: 2rem;
   color: #d0ff00;
   font-weight: 400;
 }
-.features-text h2 {
+.about-text h2 {
   margin: 0px;
   padding: 0px;
 }
-.features-text p {
+.about-text p {
   font-size: 1.2rem;
   color: #b4b4b4;
 }
-.features-text button {
+.about-text button {
   margin-top: 20px;
   width: 140px;
   height: 40px;
@@ -241,19 +241,19 @@ nav .menu-btn,
   color: #000266;
   background-color: #d0ff00;
 }
-.features-text button:hover {
+.about-text button:hover {
   background-color: #ffffff;
   transition: all ease 0.3s;
   color: #000266;
 }
-.features-model {
+.about-model {
   width: 50%;
 }
-.features-model img {
+.about-model img {
   width: 500px;
 }
 
-#services {
+#projects {
   margin-top: 120px;
   width: 100%;
   height: 100vh;
@@ -291,6 +291,7 @@ nav .menu-btn,
   overflow: hidden;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
   position: relative;
+  overflow-y: scroll;
 }
 .b-container {
   display: flex;
@@ -307,7 +308,7 @@ nav .menu-btn,
 }
 .s-b-text {
   width: 100%;
-  height: 40%;
+  height: 50%;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -323,7 +324,7 @@ nav .menu-btn,
   display: block;
   display: -webkit-box;
   max-width: 80%;
-  margin-top: 25px;
+  margin-top: 0px;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -353,7 +354,16 @@ nav .menu-btn,
   transition: all ease 0.3s;
 }
 
-#subscribe {
+/* .scroll {
+  border: 0px solid red;
+  padding: 5px;
+  margin-top: 5px;
+  width: 100%;
+  height: 100px;
+  overflow-y: scroll;
+} */
+
+#contact {
   background-color: #d0ff00;
   display: flex;
   flex-direction: column;
@@ -363,12 +373,12 @@ nav .menu-btn,
   margin-top: 80px;
   padding: 30px 0px;
 }
-#subscribe h3 {
+#contact h3 {
   font-size: 2.5rem;
   margin: 20px;
   color: #000000;
 }
-.subscribe-input {
+.contact-input {
   width: 400px;
   height: 50px;
   display: flex;
@@ -378,7 +388,7 @@ nav .menu-btn,
   /* border-radius: 50px;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.15); */
 }
-.subscribe-input p {
+.contact-input p {
   width: 100%;
   background-color: transparent;
   border: none;
@@ -387,7 +397,7 @@ nav .menu-btn,
   color: #242425;
   margin-top: 0px;
 }
-.subscribe-input a {
+.contact-input a {
   width: 100%;
   height: 30px;
   background-color: #d0ff00;
@@ -405,7 +415,7 @@ nav .menu-btn,
   font-weight: 500;
   transition: 0.4s ease-in;
 }
-.subscribe-input a:hover {
+.contact-input a:hover {
   background-color: #000000;
   color: #d0ff00;
 }
@@ -423,10 +433,10 @@ nav .menu-btn,
     margin-left: 10em;
   }
 
-  .features-model img {
+  .about-model img {
     height: 400px;
   }
-  #services {
+  #projects {
     height: auto;
   }
   .b-container {
@@ -444,26 +454,26 @@ nav .menu-btn,
   #main {
     background-size: 970px !important;
   }
-  #services {
+  #projects {
     margin-top: -60px;
   }
-  .features-model {
+  .about-model {
     display: none;
   }
   .s-heading h1 {
     font-size: 2.5rem;
     color: #d0ff00;
   }
-  .features-text h2 {
+  .about-text h2 {
     font-weight: 600;
   }
   .b-container {
     margin-top: 30px;
   }
-  #subscribe h3 {
+  #contact h3 {
     font-size: 2.5rem;
   }
-  #features {
+  #about {
     margin-top: -60px;
     justify-content: center;
     padding-top: 0px;
@@ -473,10 +483,10 @@ nav .menu-btn,
   .f-heading {
     display: none;
   }
-  .features-text {
+  .about-text {
     width: 90%;
   }
-  .features-text h1 {
+  .about-text h1 {
     font-size: 4rem;
   }
 }
@@ -587,7 +597,7 @@ nav .menu-btn,
   }
 }
 @media (max-width: 376px) {
-  .subscribe-input {
+  .contact-input {
     width: 300px;
     height: 50px;
   }

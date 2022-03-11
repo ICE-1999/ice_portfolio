@@ -3,11 +3,11 @@ import featureimage from "../images/think.jpeg";
 
 function About() {
   return (
-    <div id="features">
-      <div className="features-model">
+    <div id="about">
+      <div className="about-model">
         <img src={featureimage} alt="feature-image" />
       </div>
-      <div className="features-text">
+      <div className="about-text">
         <h2>Who am I?</h2>
         <h3>
           Passionate about <span>technology</span>

@@ -7,13 +7,9 @@ function Box(props) {
         <img src={props.image} alt={props.alte} />
       </div>
       <div className="s-b-text">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-          magni architecto id accusantium veniam nesciunt a quas iusto quod!
-          Inventore assumenda impedit quod illo minima, commodi totam sit atque
-          deleniti.
-        </p>
-        <a href="#" className="cv-btn">
+        <h3>{props.title}</h3>
+        <p>{props.desc}</p>
+        <a href={props.link} className="cv-btn" target="_blank">
           {props.button}
         </a>
       </div>

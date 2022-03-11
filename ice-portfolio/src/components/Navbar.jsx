@@ -17,17 +17,17 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="features" smooth={true} duration={1000}>
+            <Link to="about" smooth={true} duration={1000}>
               About
             </Link>
           </li>
           <li>
-            <Link to="services" smooth={true} duration={1000}>
+            <Link to="projects" smooth={true} duration={1000}>
               Projects
             </Link>
           </li>
           <li>
-            <Link to="subscribe" smooth={true} duration={1000}>
+            <Link to="contact" smooth={true} duration={1000}>
               Contact
             </Link>
           </li>
