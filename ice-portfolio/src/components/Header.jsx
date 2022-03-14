@@ -16,7 +16,7 @@ function Header() {
         </p>
         <div className="header-btns">
           <a
-            href="https://drive.google.com/file/d/19vYyAyplcCSyJULTgqP1nWSSOaG61hOC/view"
+            href="https://drive.google.com/drive/folders/1fwfKvFkyDgFyTUA-TUJhmgd-7ZZGsME0"
             target="_blank"
             className="cv-btn"
           >
