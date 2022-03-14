@@ -1,5 +1,6 @@
 {
   "name": "ice-portfolio",
+  "homepage": "https://loisaleghe.io/ice_portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
