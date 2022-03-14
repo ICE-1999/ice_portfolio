@@ -35,7 +35,7 @@ function Projects() {
           button="Github"
           title="Client-Server Calculator"
           desc="implemented a calculator system in C using linux which stores and performs operations on number using the client-server paradigm"
-          link=""
+          link="https://github.com/ICE-1999/ClientServer-Calculator"
         />
         <Box
           image={image4}

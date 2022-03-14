@@ -1,5 +1,5 @@
 import React from "react";
-import featureimage from "../images/think.jpeg";
+import featureimage from "../images/ice.jpeg";
 
 function About() {
   return (
